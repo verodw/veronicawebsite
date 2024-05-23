@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <img src="/images/light_theme.png" alt="Your Logo" className="h-16 mb-2" />
+            <Image src="/images/light_theme.png" alt="Your Logo" width={80} height={250} className="h-16 mb-2" />
             <p className="mt-2 text-gray-600 md:mr-10">
               Personal portfolio website showcasing my projects and experiences.
             </p>

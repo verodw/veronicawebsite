@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-4xl lg:text-5xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Hello, I'm{" "}
+            Hello, I&apos;m{" "}
             </span>
             <br />
             <TypeAnimation
@@ -30,7 +30,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Driven by a love for innovation and creativity. I'm dedicated to self-improvement and continuous growth, constantly seeking opportunities to expand my skill set.
+            Driven by a love for innovation and creativity. I&apos;m dedicated to self-improvement and continuous growth, constantly seeking opportunities to expand my skill set.
           </p>
           <div className="flex flex-col lg:flex-row">
             {/* <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-400 via-purple-700 to-pink-300 text-white hover:bg-slate-200">

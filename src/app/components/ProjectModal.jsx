@@ -1,5 +1,5 @@
-
 import React from "react";
+import Image from 'next/image';
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
 const ProjectModal = ({ project, onClose, onNext, onPrev }) => {
@@ -11,7 +11,7 @@ const ProjectModal = ({ project, onClose, onNext, onPrev }) => {
                 <button className="absolute top-2 right-2" onClick={onClose}>
                     <XMarkIcon className="h-6 w-6 text-black" />
                 </button>
-                <img src={project.image} alt={project.title} className="rounded-lg mb-4 w-full h-auto" />
+                <Image src={project.image} alt={project.title} className="rounded-lg mb-4 w-full h-auto" width={400} height={200}/>
                 <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
                 <p className="mb-4">{project.description}</p>
                 <div className="flex justify-between items-center">

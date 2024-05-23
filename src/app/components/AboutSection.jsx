@@ -136,23 +136,24 @@ const AboutSection = () => {
     <section id="about" className='text-white'>
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <div className="rounded-lg overflow-hidden">
-          <Image src="/images/aboutme_google.png" width={500} height={500} className="rounded-lg mt-8"/>
+          <Image src="/images/aboutme_google.png" width={500} height={500} alt="About Me Veronica" className="rounded-lg mt-8"/>
         </div>
         <div>
           <h2 className='text-4xl font-bold text-white mb-4 mt-10'>About Me</h2>
-          <p>Hi there! I'm Veronica, with a background in Mobile Application and Technology major. 
-          I have a keen interest in UI/UX design, mobile development, artificial intelligence, 
-          and machine learning. With experience in full-stack mobile development, I bring a 
-          unique blend of creativity and technical expertise to every project I undertake.</p>
-          <br></br>
-          <p>My journey in the world of technology began with a fascination for creating visually 
-          stunning interfaces that not only look great but also provide seamless user experiences. 
-          As I delved deeper into the field, I discovered the transformative potential of 
-          artificial intelligence and machine learning. Fascinated by their ability to enhance 
-          user experiences and streamline processes, I embarked on a journey to explore these 
-          cutting-edge technologies further.</p>
-          <br></br>
-          <p>I'm always excited to tackle new challenges and push the boundaries of innovation.</p>
+          <p>Hi there! I&apos;m Veronica, with a background in Mobile Application and Technology major. 
+            I have a keen interest in UI/UX design, mobile development, artificial intelligence, 
+            and machine learning. With experience in full-stack mobile development, I bring a 
+            unique blend of creativity and technical expertise to every project I undertake.</p>
+            <br></br>
+            <p>My journey in the world of technology began with a fascination for creating visually 
+            stunning interfaces that not only look great but also provide seamless user experiences. 
+            As I delved deeper into the field, I discovered the transformative potential of 
+            artificial intelligence and machine learning. Fascinated by their ability to enhance 
+            user experiences and streamline processes, I embarked on a journey to explore these 
+            cutting-edge technologies further.</p>
+            <br></br>
+            <p>I&apos;m always excited to tackle new challenges and push the boundaries of innovation.</p>
+
         </div>
       </div>
     </section>
