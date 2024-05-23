@@ -26,6 +26,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 150px; /* Adjust as needed */
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
