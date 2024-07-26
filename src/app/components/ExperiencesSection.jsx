@@ -12,7 +12,7 @@ const experiences = [
     {
         role: 'Full Stack Developer Intern',
         description: '• Develop applications using Flutter, React Native, ReactJS, .NET, C#, and PostgreSQL.\n• Identifying and fixing bugs to enhance application performance.\n• Collaborate with team members on projects.',
-        workplace: 'Accelist Lentera Indonesia',
+        workplace: 'PT Accelist Lentera Indonesia',
         date: 'February 2024 - Present',
     },
     {
