@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <link rel="icon" href="/images/light_theme.png" type="image/png" />
+        <link rel="icon" href="/images/dark_theme.png" sizes="64x64" type="image/png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
