@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
+
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -32,11 +33,22 @@ const HeroSection = () => {
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Driven by a love for innovation and creativity. I&apos;m dedicated to self-improvement and continuous growth, constantly seeking opportunities to expand my skill set.
           </p>
+
+        <div className='audio-container p-3 rounded-lg ml-0 mb-4 md:max-w-lg mx-auto'>
+          <audio controls className="w-full">
+            <source src="/audio/DreamingAfterWork.mp3" type='audio/mpeg'/>
+          </audio>
+          <p className="text-white mt-2 text-center text-sm">
+              Dreaming After Work - Lukrembo
+          </p>
+        </div>
+          
+
           <div className="flex flex-col lg:flex-row">
             {/* <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-400 via-purple-700 to-pink-300 text-white hover:bg-slate-200">
               Hire Me
             </button> */}
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-purple-400 via-yellow-600 to-pink-600 text-white animate-gradient-x hover:animate-none">
+            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 mt-3 bg-gradient-to-r from-purple-400 via-yellow-600 to-pink-600 text-white animate-gradient-x hover:animate-none">
               Hire Me
             </button>
 
@@ -51,13 +63,21 @@ const HeroSection = () => {
               background-size: 200% 200%;
               animation: gradient-x 4s ease infinite;
             }
+
+            .audio-container {
+                background: linear-gradient(to right, #8e2de2, #4a00e0); 
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+            }
           `}</style>
 
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-400 via-purple-500 to-pink-600 text-white mt-3 hover:bg-slate-600">
+            <a href="/pdf/CV-Veronica Dwiyanti.pdf" target="_blank" rel="noopener noreferrer">
+            <button 
+              className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-400 via-purple-500 to-pink-600 text-white mt-3 hover:bg-slate-600">
               <span className="block bg-[#221C35] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+                View CV
               </span>
             </button>
+            </a>
           </div>
         </div>
         <div className="col-span-5 mt-4 lg:mt-0 flex justify-center items-center">
@@ -69,10 +89,10 @@ const HeroSection = () => {
               objectFit="cover"
               className="rounded-full"
             />
-           
           </div>
         </div>
       </div>
+
     </section>
   );
 };
