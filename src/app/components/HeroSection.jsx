@@ -70,7 +70,7 @@ const HeroSection = () => {
             }
           `}</style>
 
-            <a href="/pdf/CV-Veronica Dwiyanti.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/pdf/Veronica Dwiyanti-Resume.pdf" target="_blank" rel="noopener noreferrer">
             <button 
               className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-400 via-purple-500 to-pink-600 text-white mt-3 hover:bg-slate-600">
               <span className="block bg-[#221C35] hover:bg-slate-800 rounded-full px-5 py-2">

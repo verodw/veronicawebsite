@@ -108,7 +108,7 @@ const projectsData = [
     {
         id: 12,
         title: "BeezHub",
-        description: "BeezHub is a mobile business ecosystem app designed to facilitate Binus alumni entrepreneurs, allowing businesses, startups, and public investors to interact, collaborate, and build business relationships. Binus graduates or those who have worked at Binus, can register their businesses on BeezHub by confirming their identity with Binus administration. The app features a home section for posts, events, and recommendations, a network section for connecting with other users, an invest section, a profile section for viewing results and adding businesses, and a premium section for exclusive access.",
+        description: "BeezHub is a mobile business ecosystem app designed to facilitate Bina Nusantara University alumni entrepreneurs, allowing businesses, startups, and public investors to interact, collaborate, and build business relationships. Bina Nusantara University graduates or those who have worked at Bina Nusantara University, can register their businesses on BeezHub by confirming their identity with Bina Nusantara University administration. The app features a home section for posts, events, and recommendations, a network section for connecting with other users, an invest section, a profile section for viewing results and adding businesses, and a premium section for exclusive access.",
         image: "/images/projects/BeezHub_Prototype.png",
         tag:["All", "Design"],
         link: "https://www.figma.com/proto/EMd0eg6v9k4PFeoD6j8vTh/Prototype-BeezHub?node-id=16-28&t=GNkk8SJotmWB0cXp-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1",

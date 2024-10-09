@@ -5,21 +5,21 @@ import ExperiencesCard from "./ExperiencesCard";
 const experiences = [
     {
         role: 'Software Engineering Fellow',
-        description: '• Build 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users.\n• Develop projects from design to deployment, leading 4+ engineering fellows using MVP design patterns.\n• Coached by Amazon, Bloomberg, and Capital One engineers on Agile, CI/CD, Git, and microservice patterns.',
+        description: '• Built and deployed AI projects using React JS, Next.js, Firebase, Clerk, and Vercel, following agile methodologies with weekly sprints and incorporated CI/CD practices for iterative deployment.\n• Collaborated in a team to develop an interactive customer support agent using Next.js, integrating a custom RAG pipeline with OpenAI and Pinecone to deliver responses based on the company’s knowledge base.\n• Participated in weekly sessions with engineers from Google, Y Combinator, Stanford, Amazon, and various venture-backed startups, fostering knowledge sharing and networking opportunities.',
         workplace: 'Headstarter AI',
-        date: 'July 2024 - Present',
+        date: 'July 2024 - September 2024',
     },
     {
         role: 'Full Stack Developer Intern',
         description: '• Develop applications using Flutter, React Native, ReactJS, .NET, C#, and PostgreSQL.\n• Identifying and fixing bugs to enhance application performance.\n• Collaborate with team members on projects.',
         workplace: 'PT Accelist Lentera Indonesia',
-        date: 'February 2024 - Present',
+        date: 'February 2024 - August 2024',
     },
     {
         role: 'Activist of Education and Development Department',
         description: `• Created a monthly data science curriculum with hands-on projects and real-world case studies, improving participants' ability to apply data science methods by 40%.
         • Developed and delivered data science training program for monthly classes, focusing on advanced statistics and machine learning, which led to a 25% boost in data-driven decision-making.`,
-        workplace: 'DSC (Data Science Club) BINUS University',
+        workplace: 'DSC (Data Science Club) Bina Nusantara University',
         date: 'March 2023 - January 2024',
     },
     {
@@ -32,7 +32,7 @@ const experiences = [
         role: 'Freshmen Partner',
         description: `• Assisted, directed, and managed a group of 17 students of Game Application and Technology major through their First Year Program (FYP) in both the first and second semesters.
         • Provided critical support and mentorship to ensure their smooth transition and achievement throughout this critical stage of their academic journey.`,
-        workplace: 'BINUS University',
+        workplace: 'Bina Nusantara University',
         date: 'May 2022 - July 2023',
     },
     {
@@ -43,7 +43,7 @@ const experiences = [
         • Identified media partners, established collaborative relationships with them & create a media partner booklets.
         • Make an SPK letter (Support and Cooperation Agreement) with media partners.
         • Managed the event's budget and expenses.`,
-        workplace: 'HIMTI (Himpunan Teknik Informatika) BINUS University',
+        workplace: 'HIMTI (Himpunan Teknik Informatika) Bina Nusantara University',
         date: 'September 2022 - December 2022',
     },
 ];
