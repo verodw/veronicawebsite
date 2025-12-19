@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link'; 
 import Image from 'next/image';
 import NavLink from './NavLink';
@@ -16,58 +16,80 @@ const navlinks = [
         path: "#projects",
     },
     {
-        title: "Experiences",
+        title: "Experience",
         path: "#experiences",
     },
     {
         title: "Contact",
         path: "#contact",
     },
-]
+];
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
-    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#221C35] bg-opacity-100'>
-        <div className='flex flex-wrap items-center justify-between mx auto px-5 py-2'>
-            <Link href={"/"}>
-                <Image
-                    src="/images/dark_theme.png"
-                    alt="Logo"
-                    width={150}
-                    height={150}
-                    style={{ marginTop: '-15px', marginRight: '-20px', marginBottom: '-25px' }}
-                    />
-            </Link>
-            <div className='mobile-menu block md:hidden'>
-                {
-                    !navbarOpen ? (
-                        <button onClick={() => setNavbarOpen(true)} className='flex items-center px-3 py-2 border rounded bourder-slate-200 text-slate-200 hover:text-white hover:border-white'>
-                            <Bars3Icon className='h-5 w-5'/>   
-                        </button>
-                    ) : (
-                        <button onClick={() => setNavbarOpen(false)} className='flex items-center px-3 py-2 border rounded bourder-slate-200 text-slate-200 hover:text-white hover:border-white'>
-                            <XMarkIcon className='h-5 w-5'/>   
-                        </button>
-                    )
-                }
-            </div>
-            <div className='menu hidden md:block md:w-auto' id='navbar'>
-                <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
-                    {
-                        navlinks.map((link, index) => 
-                           <li key={index}>
-                               <NavLink href={link.path} title={link.title} />
-                           </li> 
-                        )
-                    }
-                </ul>
-            </div>
-        </div>
-        {navbarOpen ? <MenuOverlay links={navlinks} /> : null}
-    </nav>
-  )
-}
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      scrolled 
+        ? 'bg-[#1a1625]/95 backdrop-blur-md shadow-lg shadow-purple-500/5 border-b border-gray-800' 
+        : 'bg-[#221C35]/80 backdrop-blur-sm border-b border-white/5'
+    }`}>
+      <div className='container mx-auto px-4 md:px-6'>
+        <div className='flex items-center justify-between h-20'>
+          {/* Logo */}
+          <Link href={"/"} className="flex items-center">
+            <Image
+              src="/images/dark_theme.png"
+              alt="Veronica Dwiyanti"
+              width={230}
+              height={230}
+              className="h-17 w-auto md:h-20"
+              priority
+            />
+          </Link>
 
-export default Navbar
+          {/* Desktop Menu */}
+          <div className='hidden md:block'>
+            <ul className='flex items-center space-x-1'>
+              {navlinks.map((link, index) => (
+                <li key={index}>
+                  <NavLink href={link.path} title={link.title} />
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <div className='md:hidden'>
+            <button 
+              onClick={() => setNavbarOpen(!navbarOpen)} 
+              className='flex items-center justify-center w-10 h-10 rounded-lg border border-gray-700 text-gray-400 hover:text-white hover:border-purple-400 hover:bg-purple-500/10 transition-all duration-200'
+              aria-label="Toggle menu"
+            >
+              {!navbarOpen ? (
+                <Bars3Icon className='h-5 w-5'/>   
+              ) : (
+                <XMarkIcon className='h-5 w-5'/>   
+              )}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu Overlay */}
+      {navbarOpen && <MenuOverlay links={navlinks} />}
+    </nav>
+  );
+};
+
+export default Navbar;
