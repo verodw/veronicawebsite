@@ -97,8 +97,8 @@ const projectsData = [
     image: "/images/projects/SentimentAnalysis_MakeupAlley.png",
     tag: ["All", "Data", "Research"],
     link: "https://www.canva.com/design/DAF4FmXL058/AHuPSgG5mLXddl9yOl4FJQ/view",
-    role: "ML Engineer, Data Analyst",
-    type: "Development Project",
+    role: "ML Engineer, Data Analyst, Researcher",
+    type: "Publication",
     date: "2024"
   },
   {
@@ -114,7 +114,6 @@ const projectsData = [
   },
 ];
 
-// 3D Interactive Card Component
 const InteractiveProjectCard = ({ project, onClick }) => {
   const cardRef = useRef(null);
   const [rotateX, setRotateX] = useState(0);
@@ -223,8 +222,8 @@ const ProjectModal = ({ project, onClose }) => {
   if (!project) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4" onClick={onClose}>
-      <div className="bg-[#1a1625] rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto border border-purple-500/30 shadow-2xl" onClick={(e) => e.stopPropagation()}>
+    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 pt-24" onClick={onClose}>
+      <div className="bg-[#1a1625] rounded-2xl max-w-3xl w-full max-h-[85vh] overflow-y-auto border border-purple-500/30 shadow-2xl" onClick={(e) => e.stopPropagation()}>
         <div className="relative">
           {project.image && (
             <div className="relative h-64 overflow-hidden rounded-t-2xl">
