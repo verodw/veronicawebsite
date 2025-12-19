@@ -45,15 +45,15 @@ const Navbar = () => {
         : 'bg-[#221C35]/80 backdrop-blur-sm border-b border-white/5'
     }`}>
       <div className='container mx-auto px-4 md:px-6'>
-        <div className='flex items-center justify-between h-20'>
+        <div className='flex items-center justify-between h-16 sm:h-18 md:h-20'>
           {/* Logo */}
           <Link href={"/"} className="flex items-center">
             <Image
               src="/images/dark_theme.png"
               alt="Veronica Dwiyanti"
-              width={230}
-              height={230}
-              className="h-17 w-auto md:h-20"
+              width={160}
+              height={160}
+              className="h-14 w-auto md:h-16"
               priority
             />
           </Link>
