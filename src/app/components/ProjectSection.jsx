@@ -48,17 +48,6 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Customer Churn Prediction using Machine Learning",
-    description: "Built predictive models to identify customers at risk of churn, uncovering inefficiencies in retention strategies. Achieved 97.9% accuracy and 99.7% AUC; highlighted key drivers such as tenure, cashback usage, and delivery distance. Translated technical findings into actionable insights to support data-driven decision-making for customer retention.",
-    image: "/images/projects/CustomerChurnPrediction.png",
-    tag: ["All", "Data", "Academic"],
-    link: "https://drive.google.com/file/d/13CTwwy0UHlk6L4QGBTO5B4OwFzV1DFke/view?usp=sharing",
-    role: "Data Analyst, ML Engineer",
-    type: "Academic Project",
-    date: "2024"
-  },
-  {
-    id: 6,
     title: "Bitcoin Price Prediction: ARIMA vs FBProphet",
     description: "Comparative analysis research paper presented at IEEE International Conference on AI and Data Analytics (ICAD) 2025, hosted by Tufts University. Analyzed Bitcoin price movements using time series forecasting models to evaluate prediction accuracy and performance.",
     image: "/images/projects/BitcoinPricePrediction.jpeg",
@@ -67,6 +56,17 @@ const projectsData = [
     role: "Researcher, Author",
     type: "Publication",
     date: "2025"
+  },
+  {
+    id: 6,
+    title: "Customer Churn Prediction using Machine Learning",
+    description: "Built predictive models to identify customers at risk of churn, uncovering inefficiencies in retention strategies. Achieved 97.9% accuracy and 99.7% AUC; highlighted key drivers such as tenure, cashback usage, and delivery distance. Translated technical findings into actionable insights to support data-driven decision-making for customer retention.",
+    image: "/images/projects/CustomerChurnPrediction.png",
+    tag: ["All", "Data", "Academic"],
+    link: "https://drive.google.com/file/d/13CTwwy0UHlk6L4QGBTO5B4OwFzV1DFke/view?usp=sharing",
+    role: "Data Analyst, ML Engineer",
+    type: "Academic Project",
+    date: "2024"
   },
   {
     id: 7,
@@ -111,6 +111,28 @@ const projectsData = [
     role: "iOS Developer",
     type: "Development Project",
     date: "2023"
+  },
+  {
+    id: 11,
+    title: "BeezHub: Business Ecosystem Platform",
+    description: "Designed a mobile business ecosystem for alumni entrepreneurs to facilitate networking, collaboration, and investment opportunities. Developed a comprehensive business model including a multi-tiered premium subscription system and an investment administrative fee structure. Validated the product through market research with 46+ respondents and direct exhibitions at BIFEST and GERBI.",
+    image: "/images/projects/BeezHub_Prototype.png",
+    tag: ["All", "Business", "Academic"], 
+    link: "https://tinyurl.com/BeezhubVidAsg2",
+    role: "Chief Operational Officer (COO) & Lead Designer", 
+    type: "Entrepreneurship Project",
+    date: "2023"
+  },
+  {
+    id: 12,
+    title: "Instaperfect Wardah Chatbot",
+    description: "Developed for Instaperfect, Wardah&apos;s premium beauty series, to provide personalized product recommendations based on customers&apos; skin type and preferences. This chatbot enhances the customer experience by facilitating seamless product exploration and obtaining tailored assistance through an intuitive interface.",
+    image: "/images/projects/Instaperfect_Chatbot.png",
+    tag: ["All", "Business", "Mobile"],
+    link: "https://app.smojo.org/byanarvendy/helpy",
+    role: "Hipster/Designer, Concept Developer",
+    type: "Business Solution Project",
+    date: "2022"
   },
 ];
 

@@ -275,7 +275,7 @@ const ScrollReveal = ({ children, direction = 'up', delay = 0, duration = 1000, 
 
 const HeroSection = () => {
   const roles = [
-    'Mobile App Developer',
+    'Full Stack Developer',
     'Business Analyst',
     'System Analyst',
     'AI/ML Enthusiast',
@@ -318,7 +318,7 @@ const HeroSection = () => {
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-2xl">
               A passionate technologist bridging business strategy and technical implementation. 
               Currently pursuing <span className="text-purple-300 font-medium">Master's in Information Systems Management</span> while 
-              delivering impactful digital solutions through mobile development, system analysis, 
+              delivering impactful digital solutions through full stack development, system analysis, 
               and AI/ML technologies.
             </p>
           </ScrollReveal>
