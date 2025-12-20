@@ -330,7 +330,7 @@ const HeroSection = () => {
                 <div className="text-xs text-gray-400 uppercase tracking-wide">Years Experience</div>
               </div>
               <div className="bg-[#2A2438]/80 backdrop-blur-sm border border-gray-700/50 rounded-lg p-4 hover:border-purple-400/50 transition-colors">
-                <div className="text-2xl font-bold text-white mb-1">14+</div>
+                <div className="text-2xl font-bold text-white mb-1">20+</div>
                 <div className="text-xs text-gray-400 uppercase tracking-wide">Projects Completed</div>
               </div>
               <div className="bg-[#2A2438]/80 backdrop-blur-sm border border-gray-700/50 rounded-lg p-4 hover:border-purple-400/50 transition-colors col-span-2 md:col-span-1">
