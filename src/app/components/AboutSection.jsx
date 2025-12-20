@@ -64,42 +64,55 @@ const skills = [
       { name: "Requirements Gathering" },
       { name: "Data Analysis" },
       { name: "Design Thinking" },
-      { name: "Project Management" },
+      { name: "Project Coordination" },
     ]
   },
+
+  {
+    category: "Data & Intelligence",
+    items: [
+      { name: "Data-Driven Decision Making" },
+      { name: "Applied Machine Learning", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+      { name: "AI-assisted Systems" },
+      { name: "Data Modeling & Evaluation" },
+    ]
+  },
+
   {
     category: "Development",
     items: [
-      { name: "React Native", image: "https://vectorified.com/images/icon-react-native-24.png" },
-      { name: "React", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" },
-      { name: "Flutter", image: "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" },
-      { name: "JavaScript", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" },
-      { name: "TypeScript" },
-      { name: "Python", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
-      { name: "RESTful APIs" },
+      { name: "React", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+      { name: "React Native", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+      { name: "Flutter", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" },
+      { name: "JavaScript", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+      { name: "TypeScript", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+      { name: "Python", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
     ]
   },
+
+  {
+  category: "Platforms & Tools",
+  items: [
+    { name: "Git", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+    { name: "AWS", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
+    { name: "Firebase", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
+    { name: "Database Management (MySQL)", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+    { name: "API Integration", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
+    { name: "Figma", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
+    { name: "VS Code", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+  ]
+},
   {
     category: "Methodologies",
     items: [
-      { name: "Agile/Scrum" },
-      { name: "TOGAF" },
+      { name: "Agile / Scrum" },
       { name: "Scrumban" },
-      { name: "Design Thinking" },
-    ]
-  },
-  {
-    category: "Tools & Technologies",
-    items: [
-      { name: "Figma", image: "https://pnghq.com/wp-content/uploads/figma-logo-png-transparent-svg-vector-79954-768x1152.png" },
-      { name: "Git", image: "https://logospng.org/download/git/git-2048.png" },
-      { name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
-      { name: "SQL" },
-      { name: "Android Studio", image: "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png" },
-      { name: "VS Code", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519" },
+      { name: "SDLC" },
+      { name: "TOGAF" },
     ]
   }
 ];
+
 
 const certifications = [
   { 
